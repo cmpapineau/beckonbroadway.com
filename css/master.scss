@@ -179,6 +179,15 @@ lectures
   border-radius: 100%;
 }
 
+#tinpan{
+  h3{
+    span{
+        font-size: 1.7rem;
+    }
+  }
+
+}
+
 /* ==========================================================================
 Videos
 ========================================================================== */
@@ -228,18 +237,18 @@ Faves
   margin-bottom: 2rem;
 }
 
-.trivia{
-  width: 60%
-  height: auto;
-  border: 1px solid $red;
-  border-top: 1px solid $red;
-  span{
-    padding: 1rem 0;
-    font-size: .8rem;
-  }
-  // background-image: url(../img/baroque-frame.svg) no-repeat;
-  // height: 100%;
-} // close trivia
+// .trivia{
+//   width: 60%
+//   // height: auto;
+//   border: 1px solid $red;
+//   border-top: 1px solid $red;
+//   span{
+//     padding: 1rem 0;
+//     font-size: .8rem;
+//   }
+//   // background-image: url(../img/baroque-frame.svg) no-repeat;
+//   // height: 100%;
+// } // close trivia
 
 footer{
   background-color: $footer;
@@ -280,12 +289,14 @@ footer{
 // phones
 
 @media (max-width: 576px) {
-  // iframe{
-  //   margin: 2%;
-  //   width: 90%;
-  //   height: auto;
-  //   border: 0;
-  // }
+  .design-title{
+    border-top: 0px solid $title;
+    // border-bottom: 10px solid $title;
+    padding:.5rem 0;
+    span{
+      font-size: 2rem;
+    }
+  }
 
 } // close mobile
 
